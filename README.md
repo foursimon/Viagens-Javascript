@@ -7,12 +7,12 @@
 <p>O foco, portanto, é ver a diferença ao utilizar a biblioteca React na criação de sites, vendo na prática a sua praticidade no desenvolvimento web.</p>
 <h2><img src="./images/question.png" width="30px" />Como funciona?</h2>
 <ul>
-    <li><p>A criação dos artigos é feita através de uma classe chamada <code>Entries</code></p>;</li>
-    <li><p>A classe possui atributos que correspondem a cada elemento HTML utilizados para criar um artigo</p>;</li>
+    <li><p>A criação dos artigos é feita através de uma classe chamada <code>Entries</code>;</p></li>
+    <li><p>A classe possui atributos que correspondem a cada elemento HTML utilizados para criar um artigo;</p></li>
     <li><p>É feito uma iteração em todos os objetos importados do arquivo <code>database</code>, onde é criado um artigo para cada objeto retornado.<p></li>
 </ul>
 <p>Dessa forma, sempre que um novo dado é adicionado à "base de dados", um novo artigo é criado automáticamente.</p>
 <h2>Site no computador</h2>
-<img src="./images/viagem-pc" width="1000px"/> 
+<img src="./images/viagem-pc.png" width="1000px"/> 
 <h2>Site no celular</h2>
-<img src="./images/viagem-celular" width="1000px"/> 
+<img src="./images/viagem-celular.png" width="1000px"/> 
