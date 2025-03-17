@@ -15,4 +15,4 @@
 <h2>Site no computador</h2>
 <img src="./images/viagem-pc.png" width="1000px"/> 
 <h2>Site no celular</h2>
-<img src="./images/viagem-celular.png" width="1000px"/> 
+<img src="./images/viagem-celular.png" width="500px"/> 
