@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter, Arial;
+}
+body{
+    height: 100vh;
+}
+header{
+    background-color: #F55A5A;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: 10px;
+}
+#header-title{
+    font-weight: 500;
+    font-size: 1.1rem;
+    letter-spacing: -1px;
+}
+header img{
+    width: 24px;
+}
+main{
+    padding: 10px;
+    margin: 30px auto auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    
+}
+.article{
+    max-width: 500px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f5f5f5;
+    color: #2B283A;
+}
+.image-container{
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+.location-image{
+    width:100%;
+    height:100%;
+    border-radius: inherit;
+    object-fit: cover;
+}
+.location-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.location{
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.location-link{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #918E9B
+}
+
+.location-name{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+.description-container{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.location-description{
+    font-weight: 400;
+    margin-top: 10px;
+}
+.location::before{
+    content: "";
+    background: url("./images/maps.png");
+    background-size: 7px 10px;
+    width: 7px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+@media screen  and (max-width: 1250px){
+    main{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 939px){
+    main{
+        justify-items: center;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (max-width: 400px){
+    main{
+        grid-template-columns: repeat(3, 100%);
+        overflow-y: hidden;
+    }
+}
